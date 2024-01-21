@@ -1,0 +1,10 @@
+.WeatherDaily {
+  text-align: center;
+}
+.WeatherDaily-temperature-max {
+  font-weight: bold;
+}
+.WeatherDaily-temperature-min {
+  opacity: 0.7;
+  margin-left: 5px;
+}
