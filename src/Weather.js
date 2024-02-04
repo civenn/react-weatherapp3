@@ -66,7 +66,7 @@ export default function Weather(props) {
       ) : weatherData.ready ? (
         <WeatherInfo data={weatherData} />
       ) : null}
-      <WeatherDaily />
+      <WeatherDaily city={weatherData.city} />
     </div>
   );
 }
